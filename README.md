@@ -1,18 +1,10 @@
 # Code hightlighter using Prism and React
 
-- Use 'npm i' to install all dependencies
-- Then 'npm run dev' to run the development server
+- Use 'npm i' to install all dependencies.
+- Then 'npm run dev' to run the development server.
 
+## How to use the editor
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- Select a language from the dropdown menu you want to use.
+-Type whatever you want to inside the input box and it'll be highlighted according to the language selected.
 
