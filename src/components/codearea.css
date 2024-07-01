@@ -1,0 +1,66 @@
+.code-container{
+  max-width: 1000px;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  min-height: 200px;
+}
+.code-area{
+  &,
+  &:focus{
+    box-shadow: none;
+    outline: 0;
+    border: 0;
+  }
+}
+.code-area, pre, code{
+  tab-size: 4;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+pre{
+  height: 100%;
+  min-height: inherit;
+  z-index: 1;
+  overflow: auto;
+  padding: 1rem;
+}
+
+code{
+  min-height: inherit;
+  overflow: hidden;
+  height: 100%;
+}
+
+.code-area{
+  caret-color: white;
+  white-space: nowrap;
+  overflow: auto;
+  text-align: left;
+  display: block;
+  resize: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  color: transparent;
+  z-index: 2;
+  background: transparent;
+  width: 100%;
+  font-size: large;
+  padding: 1.5rem 1rem;
+}
+
+.languages{
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #242424;
+}
+
+.form-container{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
